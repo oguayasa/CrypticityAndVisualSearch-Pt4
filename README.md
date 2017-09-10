@@ -401,10 +401,9 @@ Show all three
 
 ![](https://github.com/oguayasa/CrypticityAndVisualSearch-Pt4/blob/master/imgs/ldaResults_BoxPlots.jpg)
 
-**Figure 3**
+**Figure 3** Boxplots showing the effects of difficulty treatment on search profile scores, organized by search outcome. 
 
-
-Discuss Results
+These boxplots validate our GLMM and Tp results nicely. Specifically, we can see that the biggest difference between Easy and Hard treatments occures during Fn searches, and that while the difference in Tp searches is significant, it is small. 
 
 Correlation Analysis Across Difficulty Treatments
 =================================================
@@ -465,9 +464,10 @@ Let's visualize these correlations using scatterplots overlaid with a line of be
 
 ![](https://github.com/oguayasa/CrypticityAndVisualSearch-Pt4/blob/master/imgs/ldaResultsCorrPlots.jpg)
 
-**Figure 4**
+**Figure 4** Scatterplots organzied by search outcome overlaid with line of best fit representing the relationship between subject search profile scores during Easy and Hard treatments. 
 
-Our correlation results are backed up by visualized these relationships. 
+Simply put, our correlation results are backed up by visualized these relationships. 
 
 Conclusions
 ===========
+TBC
