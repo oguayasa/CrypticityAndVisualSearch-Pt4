@@ -104,7 +104,7 @@ ggplot(data = lda.Data.Long, aes(x = LD1, fill = EndType)) +
         plot.subtitle = element_text(hjust = 0.5, size = 12))
 ```
 
-![](https://github.com/CrypticityAndVisualSearch-Pt4/blob/master/imgs/ldaResults_hist1.jpg)
+![](https://github.com/oguayasa/CrypticityAndVisualSearch-Pt4/blob/master/imgs/ldaResults_hist1.jpg)
 
 **Figure 1**
 
@@ -132,7 +132,7 @@ for (i in 1:2){
   qqnorm(cur.Data); qqline(cur.Data)  # qqplot with normal line
 }
 ```
-![](https://github.com/CrypticityAndVisualSearch-Pt4/blob/master/imgs/ldaResults_qqPlots.jpg)
+![](https://github.com/oguayasa/CrypticityAndVisualSearch-Pt4/blob/master/imgs/ldaResults_qqPlots.jpg)
 
 **Figure 2**
 
@@ -166,7 +166,7 @@ for (i in 1:2){
 }
 ```
 
-talk about it mentions that the residuals look good and if you want to take a look you can find them here [residuals](https://github.com/CrypticityAndVisualSearch-Pt4/blob/master/imgs).
+talk about it mentions that the residuals look good and if you want to take a look you can find them here [residuals](https://github.com/oguayasa/CrypticityAndVisualSearch-Pt4/blob/master/imgs).
 
 
 Examine one GLMM results
@@ -388,15 +388,15 @@ To visualize treatment effects and subject variation, we will use boxplots overl
 
 Show all three
 
-![](https://github.com/CrypticityAndVisualSearch-Pt4/blob/master/imgs/ldaResults_BoxPlot_Tp.jpg)
+![](https://github.com/oguayasa/CrypticityAndVisualSearch-Pt4/blob/master/imgs/ldaResults_BoxPlot_Tp.jpg)
 
 **Figure 3**
 
-![](https://github.com/CrypticityAndVisualSearch-Pt4/blob/master/imgs/ldaResults_BoxPlot_Tn.jpg)
+![](https://github.com/oguayasa/CrypticityAndVisualSearch-Pt4/blob/master/imgs/ldaResults_BoxPlot_Tn.jpg)
 
 **Figure 4**
 
-![](https://github.com/CrypticityAndVisualSearch-Pt4/blob/master/imgs/ldaResults_BoxPlot_Fn.jpg)
+![](https://github.com/oguayasa/CrypticityAndVisualSearch-Pt4/blob/master/imgs/ldaResults_BoxPlot_Fn.jpg)
 
 **Figure 5**
 
@@ -454,15 +454,15 @@ Scatterplots to view across-treatment relationships
 
 Let's visualize these correlations using scatterplots overlaid with a line of best fit.
 
-![](https://github.com/CrypticityAndVisualSearch-Pt4/blob/master/imgs/ldaResultsCorrPlots_Tp.jpg)
+![](https://github.com/oguayasa/CrypticityAndVisualSearch-Pt4/blob/master/imgs/ldaResultsCorrPlots_Tp.jpg)
 
 **Figure 6**
 
-![](https://github.com/CrypticityAndVisualSearch-Pt4/blob/master/imgs/ldaResultsCorrPlots_Tn.jpg)
+![](https://github.com/oguayasa/CrypticityAndVisualSearch-Pt4/blob/master/imgs/ldaResultsCorrPlots_Tn.jpg)
 
 **Figure 7**
 
-![](https://github.com/CrypticityAndVisualSearch-Pt4/blob/master/imgs/ldaResultsCorrPlots_Fn.jpg)
+![](https://github.com/oguayasa/CrypticityAndVisualSearch-Pt4/blob/master/imgs/ldaResultsCorrPlots_Fn.jpg)
 
 **Figure 8**
 
