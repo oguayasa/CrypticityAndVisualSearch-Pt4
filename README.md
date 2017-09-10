@@ -104,6 +104,8 @@ ggplot(data = lda.Data.Long, aes(x = LD1, fill = EndType)) +
         plot.subtitle = element_text(hjust = 0.5, size = 12))
 ```
 
+![](https://github.com/CrypticityAndVisualSearch-Pt4/blob/master/imgs/ldaResults_hist1.jpg)
+
 **Figure 1**
 
 stuff here
@@ -130,6 +132,7 @@ for (i in 1:2){
   qqnorm(cur.Data); qqline(cur.Data)  # qqplot with normal line
 }
 ```
+![](https://github.com/CrypticityAndVisualSearch-Pt4/blob/master/imgs/ldaResults_qqPlots.jpg)
 
 **Figure 2**
 
@@ -163,7 +166,8 @@ for (i in 1:2){
 }
 ```
 
-talk about it mentions that the residuals look good and if you want to take a look they are oin the imgs folder
+talk about it mentions that the residuals look good and if you want to take a look you can find them here [residuals](https://github.com/CrypticityAndVisualSearch-Pt4/blob/master/imgs).
+
 
 Examine one GLMM results
 ------------------------
@@ -251,7 +255,6 @@ tp.Test <- wilcox.test(tp.Easy$LD1, tp.Hard$LD1,
 |---------:|----------:|--------:|---------:|----------:|
 |      0.27|       6923|        0|      0.09|       0.46|
 
-EDIT
 
 Looking at the median values, there is a small difference in profile score (~0.15) across the difficulty treatments, the p-value associate with this difference is barely significant, and the lower confidence interval is quite close to zero. All of these indicate that there is technically significant, but slight effect of task difficulty on FP behavior profile scores. Looking back at our [analysis](https://github.com/oguayasa/CrypticityAndVisualSearch-Pt3) that produced the behavior profile scores, we can see that higher scores are associated with more time spent searching and sampling within the target. Translating this finding to the results of FP scores, this means that during the Easy treatment, subjects spent more time searching within FP targets than duirng the Hard treatment. This finding makes sense, considering that in the Easy treatment, targets should have been easier to spot, and confusing a non-target with an actually target should create more cognitive dissonance.
 
@@ -385,9 +388,15 @@ To visualize treatment effects and subject variation, we will use boxplots overl
 
 Show all three
 
+![](https://github.com/CrypticityAndVisualSearch-Pt4/blob/master/imgs/ldaResults_BoxPlot_Tp.jpg)
+
 **Figure 3**
 
+![](https://github.com/CrypticityAndVisualSearch-Pt4/blob/master/imgs/ldaResults_BoxPlot_Tn.jpg)
+
 **Figure 4**
+
+![](https://github.com/CrypticityAndVisualSearch-Pt4/blob/master/imgs/ldaResults_BoxPlot_Fn.jpg)
 
 **Figure 5**
 
@@ -445,9 +454,15 @@ Scatterplots to view across-treatment relationships
 
 Let's visualize these correlations using scatterplots overlaid with a line of best fit.
 
+![](https://github.com/CrypticityAndVisualSearch-Pt4/blob/master/imgs/ldaResultsCorrPlots_Tp.jpg)
+
 **Figure 6**
 
+![](https://github.com/CrypticityAndVisualSearch-Pt4/blob/master/imgs/ldaResultsCorrPlots_Tn.jpg)
+
 **Figure 7**
+
+![](https://github.com/CrypticityAndVisualSearch-Pt4/blob/master/imgs/ldaResultsCorrPlots_Fn.jpg)
 
 **Figure 8**
 
