@@ -1,11 +1,10 @@
 Examining behavioral search 'profiles' during a visual search task
 ==================================================================
 
-Author: Olivia Guayasamin
-
+Olivia Guayasamin 9/10/2017
 
 Introduction
-============
+------------
 
 This code demonstrate initial analyses to determine if peoples' behavioral "profiles" during a [visual search task](https://github.com/oguayasa/CrypticityAndVisualSearch-Pt1) vary as a function of task difficulty and search outcome. [Previously](https://github.com/oguayasa/CrypticityAndVisualSearch-Pt3), we assigned a single behavioral "profile" score to every search that each subject completed. These scores were estimated using a model generated from LDA analysis, an approach we took to reduce the dimensionality of our data sets that contained various gaze-trajectory and behavioral measurements.
 
