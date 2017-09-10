@@ -388,17 +388,10 @@ To visualize treatment effects and subject variation, we will use boxplots overl
 
 Show all three
 
-![](https://github.com/oguayasa/CrypticityAndVisualSearch-Pt4/blob/master/imgs/ldaResults_BoxPlot_Tp.jpg)
+![](https://github.com/oguayasa/CrypticityAndVisualSearch-Pt4/blob/master/imgs/ldaResults_BoxPlots.jpg)
 
 **Figure 3**
 
-![](https://github.com/oguayasa/CrypticityAndVisualSearch-Pt4/blob/master/imgs/ldaResults_BoxPlot_Tn.jpg)
-
-**Figure 4**
-
-![](https://github.com/oguayasa/CrypticityAndVisualSearch-Pt4/blob/master/imgs/ldaResults_BoxPlot_Fn.jpg)
-
-**Figure 5**
 
 Discuss Results
 
@@ -454,17 +447,9 @@ Scatterplots to view across-treatment relationships
 
 Let's visualize these correlations using scatterplots overlaid with a line of best fit.
 
-![](https://github.com/oguayasa/CrypticityAndVisualSearch-Pt4/blob/master/imgs/ldaResultsCorrPlots_Tp.jpg)
+![](https://github.com/oguayasa/CrypticityAndVisualSearch-Pt4/blob/master/imgs/ldaResultsCorrPlots.jpg)
 
-**Figure 6**
-
-![](https://github.com/oguayasa/CrypticityAndVisualSearch-Pt4/blob/master/imgs/ldaResultsCorrPlots_Tn.jpg)
-
-**Figure 7**
-
-![](https://github.com/oguayasa/CrypticityAndVisualSearch-Pt4/blob/master/imgs/ldaResultsCorrPlots_Fn.jpg)
-
-**Figure 8**
+**Figure 4**
 
 The lack of correlation for the number of true-positive searches is quite apparent.
 
