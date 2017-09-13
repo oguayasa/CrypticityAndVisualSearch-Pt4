@@ -399,8 +399,6 @@ Boxplots to visualize search outcome and treatment effects
 
 To visualize treatment effects and subject variation, we will use boxplots overlaid on top of individual lines representing subject averages across treatments. Below each boxplot figure, we will include a histogram showing the distribution of within subject differences across treatments. These figures will include data from all measures, so that we can discuss results from the measures that were not used as examples for the GLMM and ICC analyses.
 
-Show all three
-
 ![](https://github.com/oguayasa/CrypticityAndVisualSearch-Pt4/blob/master/imgs/ldaResults_BoxPlots.jpg)
 
 **Figure 3** Boxplots showing the effects of difficulty treatment on search profile scores, organized by search outcome. 
