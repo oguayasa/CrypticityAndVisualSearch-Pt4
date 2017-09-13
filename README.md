@@ -71,7 +71,7 @@ Check data distributions prior to analysis
 
 This is so that we know how to properly specify our GLMMs in our code. If the data are clearly bimodal, or do not appear continuous, we will need to take this into account when specifying our GLMMs, or else our results will be irrelavant. Here, we first will visualize data distributions using histograms, and then compare with normal distributions using qq-plots.
 
-When we first generated our search profile scores in a previous [tutorial](https://github.com/oguayasa/CrypticityAndVisualSearch-Pt3) and plotted histograms of profile scores by search outcome (TP, TN, FN, FP), it did appear as though the data were bimodal. Specifically, it looked as though there were two distributions. One was comprised of the positive search outcome (TP, FN), and the other contained the negative search outcomes (TN, FN). However, at the time we did not plot according to whether the search outcome was positive or negative, so we will do so here. As a reminder, a *positive* search outcome is one where the participant clicked on a stimuli believing it to a be a task target, while a *negative* searhc outcome is one where the participant never clicked on the stimuli at all. 
+When we first generated our search profile scores in a previous [tutorial](https://github.com/oguayasa/CrypticityAndVisualSearch-Pt3) and plotted histograms of profile scores by search outcome (TP, TN, FN, FP), it did appear as though the data were bimodal. Specifically, it looked as though there were two distributions. One was comprised of the positive search outcome (TP, FN), and the other contained the negative search outcomes (TN, FN). However, at the time we did not plot according to whether the search outcome was positive or negative, so we will do so here. As a reminder, a *positive* search outcome is one where the participant clicked on a stimuli believing it to a be a task target, while a *negative* search outcome is one where the participant never clicked on the stimuli at all. 
 
 ### Check to see if data is bi-modal
 
@@ -175,6 +175,7 @@ Examine one GLMM results
 
 Using the GLMM for the negative search outcomes, let's look at how all of our fixed and random effects played out. 
 
+
 | term                       |    estimate|  std.error|    statistic| group      |
 |:---------------------------|-----------:|----------:|------------:|:-----------|
 | (Intercept)                |  -1.5416051|  0.1125732|  -13.6942427| fixed      |
@@ -212,6 +213,7 @@ Above, we have two lists of the estimated effect sizes of our fixed and randome 
 | ExpVer most  |   -1.2014|          0.1046|  39.9|   -11.48|   -1.4128|   -0.9899|        0|
 
 Here, we are examining the estimates for each "level" or combinates of the fixed effects. The tables descend according to fixed effect interactions, search outcome effect, and task difficulty effect. They list the estimated mean of each level, and whether these estimated means are significnatly different from zero. However, by examining the lower and upper CI, one can also determine if the levels significantly differe from each other. 
+
 
 |            |       Chi.sq|  Chi.DF|    p.value|
 |------------|------------:|-------:|----------:|
@@ -466,8 +468,9 @@ Let's visualize these correlations using scatterplots overlaid with a line of be
 
 **Figure 4** Scatterplots organzied by search outcome overlaid with line of best fit representing the relationship between subject search profile scores during Easy and Hard treatments. 
 
-Simply put, our correlation results are backed up by visualized these relationships. 
+Simply put, our correlation results are backed up by visualized these relationships. This may seem like a trivial statement, but it is always important to visualize your data to verify the results of statistical test. Visualizeing your data can let you know if your data meet the assumptions of the test, and therefore, if the results of the test are valid and meaningful. 
 
 Conclusions
 ===========
-TBC
+
+One thing that I think is particularly interesting about this data set, is not that there were differences in profile scores between Negative and Positive search outcomes (given that positive searches included an additional behavior, an identifying mouse click, this result is not at all surprising), but that there were differences between True and False searches within the Negative and Positive outcomes. Despite the fact the decision outcome (click or not click) was the same, correct and incorrect decisions were preceeded by different patterns of search and attention. For example, Tn and Fn searches demonstrated both different average search profile scores and different responses to task difficulty. Even though their conscious action was the same in both cases, the cognitive processes that occured during each type of search was different. How do these different unconscious processes lead to the same conclusion? Why are these processes different, and can we describe how they are different? From a more human-centric and applied angle, we can ask, by knowing how these processes differ, is there any way we can learn to intervene and help individuals make correct decision more often? In science, results rarely lead to finished answers and a completed story, instead they show us new quesitons and problems that we never considered before. The questions I've listed are just a few examples of how we could use our current results to inspire further research. 
